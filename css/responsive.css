@@ -1,2 +1,36 @@
+/*-----------------------------------------
 
+Start Responsive CSS get Weather.
 
+-----------------------------------------*/
+
+@media (max-width: 1330px) {
+    .weather{
+        height: auto;
+    }
+    .weather .col-sm-4{
+        min-width: 100%;
+    }
+    .city-date{
+        width: 33%;
+        float: left;
+    }
+    .weather .col-sm-4 p{
+        float: left;
+        width: 100%;
+    }
+    .hum-wind{
+        width: 33%;
+        float: left;
+    }
+    .temp-clouds{
+        width: 33%;
+        float: left;
+    }
+}
+@media (max-width: 850px){
+    .weather{
+        clear: both;
+        margin-right: 20px;
+    }
+}
