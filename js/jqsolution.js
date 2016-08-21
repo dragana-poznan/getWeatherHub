@@ -28,8 +28,6 @@ $(document).ready(function() {
             // ovde ce da ide kod za dalju obradu podataka
 
             var new_city_template ='<div class="new-city col-sm-4"><h3 class="city-name">Lisbon</h3><p class="date">July 4</p><h3 class="temperature">24</h3><p class="clouds">clouds</p><p class="hum">hum</p><p class="wind">wind</p></div>';
-            
-
                 // console.log(value);
                 $(".weather").html(""); // isprazni element
                 

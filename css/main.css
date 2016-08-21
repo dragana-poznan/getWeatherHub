@@ -1,15 +1,15 @@
 /* ---------------------------------------------- /*
  * Main
 /* ---------------------------------------------- */
-@import 'https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&subset=latin-ext';
-
+/*@import 'https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&subset=latin-ext';*/
+/*font-family: 'Roboto Condensed', sans-serif;*/
 
 
 /* General */
 body{
     background: #ebeff1;
     background: orange;
-    font-family: "Roboto";
+    font-family: 'Roboto Condensed', sans-serif;
 }
 /* Header */
 header{
@@ -33,13 +33,16 @@ header{
     background: white;
     height: 70px;
     margin: 10px;
-    display: inline-block;
     max-width: 360px;
+}
+.weather .col-sm-4 h3{
+    float: left;
+    margin: 0;
 }
 .weather .col-sm-4:first-child{
 }
 .weather .col-sm-4:last-child{
-/*    margin-right: 0;*/
+    /*    margin-right: 0;*/
 }
 
 
