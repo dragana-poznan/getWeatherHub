@@ -27,8 +27,9 @@ $(document).ready(function() {
 
             // ovde ce da ide kod za dalju obradu podataka
 
-            var new_city_template ='<div class="new-city col-sm-4"><h3 class="city-name">Lisbon</h3><p class="date">July 4</p><h3 class="temperature">24</h3><p class="clouds">clouds</p><p class="hum">hum</p><p class="wind">wind</p></div>';
-                // console.log(value);
+            //var new_city_template ='<div class="new-city col-sm-4"><h3 class="city-name">Lisbon</h3><p class="date">July 4</p><h3 class="temperature">24</h3><p class="clouds">clouds</p><p class="hum">hum</p><p class="wind">wind</p></div>';
+            var new_city_template ='<div class="new-city col-sm-4"><div class="col-md-4 city-date"><h3 class="city-name">Lisbon</h3><p class="date">July 4</p></div><div class="col-md-3 temp-clouds"><h3 class="temperature">24<span>&deg;C</span></h3><p class="clouds">clouds</p></div><div class="col-md-5 hum-wind"><p class="hum"><span>Humidity&#58; </span>hum</p><p class="wind"><span>Wind&#58; </span>wind</p></div></div>';
+            // console.log(value);
                 $(".weather").html(""); // isprazni element
                 
                 // ovde ine foreach ili .each
