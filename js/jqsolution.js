@@ -2,7 +2,7 @@
 
 
 $(document).ready(function() {
-    console.log('Cao!!!');
+    console.log('hello!!!');
     
     
     $( "#city-search" ).on('submit', function(e) {
@@ -69,9 +69,9 @@ $(document).ready(function() {
 
             //
 
-            console.log('bla bla');
-            neka_obrada_podataka(); // update main area
-            zavrsena_obrada();
+            console.log('foo bar');
+            data_processing(); // update main area
+            completed_processing();
             console.log('Spinner hide...');
         });
        e.preventDefault();
