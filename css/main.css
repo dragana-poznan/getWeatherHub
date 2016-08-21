@@ -34,6 +34,7 @@ header{
     height: 70px;
     margin: 10px;
     display: inline-block;
+    max-width: 360px;
 }
 .weather .col-sm-4:first-child{
 }
