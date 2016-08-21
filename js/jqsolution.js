@@ -69,8 +69,8 @@ $(document).ready(function() {
             //
 
             console.log('foo bar');
-            data_processing(); // update main area
-            completed_processing();
+            //neka_obrada_podataka(); // update main area
+            //completed_processing();
             console.log('Spinner hide...');
         });
        e.preventDefault();
