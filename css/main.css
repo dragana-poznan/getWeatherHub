@@ -10,6 +10,7 @@ body{
     background: #ebeff1;
     background: orange;
     font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
 }
 /* Header */
 header{
@@ -31,21 +32,50 @@ header{
 }
 .weather .col-sm-4{
     background: white;
-    height: 70px;
+    height: 86px;
     margin: 10px;
     max-width: 360px;
 }
 .weather .col-sm-4 h3{
     float: left;
-    margin: 0;
+    color: #4c5766;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.weather .col-sm-4 p{
+    color: #91999d;
+    font-weight: lighter;
 }
 .weather .col-sm-4:first-child{
 }
 .weather .col-sm-4:last-child{
     /*    margin-right: 0;*/
 }
-
-
 .city .city-name {
 
+}
+.city{
+    position: relative;
+}
+.temperature span{
+    font-weight: lighter;
+    font-size: 10px;
+    top: 20px;
+    position: absolute;
+    font-family: sans-serif;
+}
+.temp-clouds h3{
+    width: 100%;
+    text-align: center;
+}
+.temp-clouds p{
+    width: 100%;
+    text-align: center;
+}
+.hum-wind{
+    margin-top: 20px;
+}
+.hum-wind p{
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
